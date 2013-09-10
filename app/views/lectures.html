@@ -1,5 +1,22 @@
-<div class="hero-unit">
-  <h1>Lectures</h1>
-  
-  <h3>Enjoy coding! - Yeoman</h3>
+<div class="row">
+	<div class="col-md-4">
+	  <div class="list-group">
+		  <a ng-repeat="lecture in lectures" href="#" class="list-group-item">
+		    <h4 class="list-group-item-heading">{{lecture.title}}</h4>
+		    <p class="list-group-item-text">{{lecture.summary}}</p>
+		  </a>
+		  
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Lecture Title</h3>
+			</div>
+			<div class="panel-body">
+				Lecture summary
+			</div>
+		</div>
+	</div>
 </div>

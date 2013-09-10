@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('moocpocApp', [])
+angular.module('moocpocApp', ['moocpocServices'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -9,7 +9,7 @@ angular.module('moocpocApp', [])
       })
       .when('/lectures', {
         templateUrl: 'views/lectures.html',
-        controller: 'MainCtrl'
+        controller: 'LecturesCtrl'
       })
       .otherwise({
         redirectTo: '/'

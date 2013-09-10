@@ -1,0 +1,30 @@
+[
+    { "id": "234",
+    	"title": "Week 1",
+    	"summary": "Learning Technology Design and Sustainability",
+    	"keyconcepts": "Key Concept: Sustainability",
+    	"assignment": "Welcome, please settle in. Introduce yourself on your Journal (located on your profile) and the Forums (under Community)--tell about your interests, your experience, where you are from, and what you are passionate about! Find friends who have similar interests as well as some different skills than yours (these could be useful on the final project).",
+    	"resources:": "<p><a href=\"http://edudemic.com/2012/07/edtech-cheat-sheet/\" title=\"Edtech Cheat Sheet\" target=\"_blank\">The \"Must-Have Edtech Cheat Sheet\"</a></p>",
+    	"videos": [{"id":"312", 
+    							"thumb":"http://img.youtube.com/vi/5E8ZBuysdWA/hqdefault.jpg",
+    							"title":"Learning Technology Design and Sustainability",
+    							"time": "8 minutes"}
+    							 ]
+    },
+    { "id":"239",
+    	"title": "Week 2 ",
+    	"summary": "Two Guest Speakers on Technology in Education",
+    	"keyconcepts": "Education and technology access around the world. University of Wolverhampton Professor John Traxler discusses mobile learning and education in a technologically-agile and responsive society, and USC Professor Guilbert Hentschke shares his perspectives and vision of technology as a vehicle to expand access to education.",
+    	"assignment": "Welcome, please settle in. Introduce yourself on your Journal (located on your profile) and the Forums (under Community)--tell about your interests, your experience, where you are from, and what you are passionate about! Find friends who have similar interests as well as some different skills than yours (these could be useful on the final project).",
+    	"resources:": "<p><a href=\"http://edudemic.com/2012/07/edtech-cheat-sheet/\" title=\"Edtech Cheat Sheet\" target=\"_blank\">The \"Must-Have Edtech Cheat Sheet\"</a></p>",
+    	"videos": [{"id":"312", 
+    							"thumb":"http://img.youtube.com/vi/oMB7up9iZZs/hqdefault.jpg",
+    							"title":"Guest Speaker University of Wolverhampton Professor John Traxler",
+    							"time": "7 minutes"},
+    							{"id":"392", 
+    							"thumb":"http://img.youtube.com/vi/hh01N-EOtcM/hqdefault.jpg",
+    							"title":"Guest Speaker USC Professor Guilbert Hentschke  ",
+    							"time": "6 minutes"} ]
+
+    }
+]
