@@ -1,7 +1,7 @@
 <div class="row">
 	<div class="col-md-4">
 	  <div class="list-group">
-		  <a ng-repeat="lecture in lectures" href="#" class="list-group-item">
+		  <a ng-repeat="lecture in lectures" ng-click="setLecture(lecture)"  ng-class="{active: lecture == selectedLecture}" class="list-group-item">
 		    <h4 class="list-group-item-heading">{{lecture.title}}</h4>
 		    <p class="list-group-item-text">{{lecture.summary}}</p>
 		  </a>
@@ -9,13 +9,38 @@
 		</div>
 	</div>
 
-	<div class="col-md-4">
+	<div class="col-md-8">
 		<div class="panel panel-default">
 			<div class="panel-heading">
-				<h3 class="panel-title">Lecture Title</h3>
+				<h3 class="panel-title">{{selectedLecture.title}}</h3>
 			</div>
 			<div class="panel-body">
-				Lecture summary
+				<p>{{selectedLecture.summary}}</p>
+				<div class="thumbnail">
+					<img src="{{selectedLecture.videos[0].thumb}}" alt="..." class="img-rounded">
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading">Key Concepts</div>
+				  <div class="panel-body">
+				    {{selectedLecture.keyconcepts}}
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading">Assignment</div>
+				  <div class="panel-body">
+				    {{selectedLecture.assignment}}				    				    
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading">Resources</div>
+				  <div class="panel-body">				  	
+				  	<div ng-bind-html="selectedLecture.resources"></div>	     
+				  </div>
+				</div>
+
 			</div>
 		</div>
 	</div>

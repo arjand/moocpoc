@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('moocpocApp', ['moocpocServices'])
+angular.module('moocpocApp', ['moocpocServices','ngSanitize'])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
