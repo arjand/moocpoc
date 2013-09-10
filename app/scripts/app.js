@@ -7,6 +7,10 @@ angular.module('moocpocApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/lectures', {
+        templateUrl: 'views/lectures.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
